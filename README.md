@@ -11,4 +11,10 @@ For this task I'll use:
 * *Independent Component Analysis:* so I can compare the different types of component analysis.
 * *One-Class Support Vector Machines*: another type of unsupervised anomaly detection model.
 
-## Project Sumamry
+## Project Summary
+The project is divided in three main sections:
+### Exploratory Data Analysis
+In this section I review the data available in
+### Model Selection
+
+### Hyperparameter Tuning and Final Test
