@@ -13,8 +13,8 @@ For this task I'll use:
 
 ## Project Summary
 The project is divided in three main sections:
-### Exploratory Data Analysis
+### 1) Exploratory Data Analysis
 In this section I review the data available in
-### Model Selection
+### 2) Model Selection
 
-### Hyperparameter Tuning and Final Test
+### 3) Hyperparameter Tuning and Final Test
