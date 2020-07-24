@@ -13,8 +13,22 @@ For this task I'll use:
 
 ## Project Summary
 The project is divided in three main sections:
+
 ### 1) Exploratory Data Analysis
-In this section I review the data available in
+
+There are no missing values and the documentation lacks of feature explanation, so I wasn't able to make a very extended exploratory data analysis.
+
+![](https://github.com/ruizleandro/Credit-Card-Fraud-Detection/blob/master/Transactions%20according%20to%20amount.png?raw=true)
+
+Conclusions:
+* 1 out of 60 transactions were fraudulent.
+* Fraudulent transactions were from a little amount almost in every case (the 50 % were for $9 or less).
+
 ### 2) Model Selection
 
+After the training phase for the three models described earlier, these were the results:
+
+
 ### 3) Hyperparameter Tuning and Final Test
+
+The model selected for the final test was
