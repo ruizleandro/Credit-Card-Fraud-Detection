@@ -12,7 +12,7 @@ For this task I'll use:
 * *One-Class Support Vector Machines*: another type of unsupervised anomaly detection model.
 
 ## Project Summary
-The project is divided in three main sections:
+The project is divided in two main sections:
 
 ### 1) Exploratory Data Analysis
 
@@ -28,7 +28,19 @@ Conclusions:
 
 After the training phase for the three models described earlier, these were the results:
 
+### Principal Component Analysis
 
-### 3) Hyperparameter Tuning and Final Test
+* Average Precision: 0.70
+* Area Under ROC Curve: 0.92
 
-The model selected for the final test was
+### Independent Component Analysis
+
+* Average Precision: 0.17
+* Area Under ROC Curve: 0.95
+
+### One-Class Support Vector Machines
+Here, I performed some basic Grid Search, playing with the different types of `kernel` and the values of `nu`.
+The best pair of parameters were `{'kernel': 'rbf', 'nu': 0.2}`, and in the Test Set it gave these results:
+
+* Area Under ROC Curve: 0.12
+
